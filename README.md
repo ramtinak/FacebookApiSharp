@@ -23,7 +23,7 @@ I just shared the project to help people for their start.
 This library won't publish to Nuget.org by me. 
 
 Build this library by yourself. 
-If you have problem with building it, try removing some platforms in the FacebookApiSharp.csproj in line 4.
+If you have problem with building it, try removing some platforms in the [FacebookApiSharp.csproj in line 4](https://github.com/ramtinak/FacebookApiSharp/blob/c67d0c208c3ee4ebdb643c015ffe7c06a891ace8/src/FacebookApiSharp/FacebookApiSharp.csproj#L4).
 
 ## Sample
 You won't get any sample for this, this library is just like [InstagramApiSharp](https://github.com/ramtinak/InstagramApiSharp)'s library,
