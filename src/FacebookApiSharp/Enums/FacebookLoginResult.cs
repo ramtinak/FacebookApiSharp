@@ -17,6 +17,7 @@ namespace FacebookApiSharp.Enums
         Unknown,
         //OAuthException,
         UnExpectedError,
-        RenewPwdEncKeyPkg
+        RenewPwdEncKeyPkg,
+        SMScodeRequired
     }
 }

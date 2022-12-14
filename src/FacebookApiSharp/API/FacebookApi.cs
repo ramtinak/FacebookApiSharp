@@ -521,6 +521,23 @@ namespace FacebookApiSharp.API
 
                             return Result.Fail(error.Message, FacebookLoginResult.RenewPwdEncKeyPkg);
                         }
+                        else if (error.Code == 406)
+                        {
+                            // "message": "Login approvals are on. Expect an SMS shortly with a code to use for log in",
+                            // "type": "OAuthException",
+                            // "code":406,
+                            // "error_data":{"uid":xxxxx,
+                            // login_first_factor":"xxxxxxxxxxxxxx",
+                            // "support_uri":"https://m.facebook.com/two_factor/id_upload/mobile/?idd=xxxxxxxx&nonce=xxxxxxxx&ext=xxx&hash=xxx",
+                            // "auth_token":"xxx"},
+                            // "error_subcode":1348161,
+                            // "is_transient":false,
+                            // "error_user_title":"Wymagany kod logowania",
+                            // "error_user_msg":"Wprowad\\u017a kod, kt\\u00f3ry wys\\u0142ali\\u015bmy Ci w wiadomo\\u015bci tekstowej, aby si\\u0119 zalogowa\\u0107.",
+                            // "fbtrace_id":"AQQuUcaNFIOc_Mmrc-1oHDG"}}"
+                            return Result.Fail(error.Message, FacebookLoginResult.SMScodeRequired);
+                        }
+
                     }
 
                     return Result.UnExpectedResponse<FacebookLoginResult>(response, json);
