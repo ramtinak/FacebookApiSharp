@@ -11,8 +11,8 @@ namespace FacebookApiSharp.API
 {
     public static class FacebookApiConstants
     {
-        public const string FACEBOOK_API_VERSION = "361.0.0.39.115";
-        public const string FACEBOOK_APP_VERSION = "361571102";
+        public const string FACEBOOK_API_VERSION = "465.0.0.0.6";
+        public const string FACEBOOK_APP_VERSION = "452000754";
         public const string FACEBOOK_ACCESS_TOKEN = "350685531728|62f8ce9f74b12f84c123cc23437a4a32";
         public const string FACEBOOK_API_KEY = "882a8490361da98702bf97a021ddc14d";
         public const string FACEBOOK_BLOKS_VERSION = "fcb188fb4c97a862b85d875824832dd3e42ead2a17102661b4bed0825f260514";
