@@ -11,8 +11,8 @@ namespace FacebookApiSharp.API
 {
     public static class FacebookApiConstants
     {
-        public const string FACEBOOK_API_VERSION = "465.0.0.0.6";
-        public const string FACEBOOK_APP_VERSION = "452000754";
+        public const string FACEBOOK_API_VERSION = "479.0.0.42.89";
+        public const string FACEBOOK_APP_VERSION = "636608107";
         public const string FACEBOOK_ACCESS_TOKEN = "350685531728|62f8ce9f74b12f84c123cc23437a4a32";
         public const string FACEBOOK_API_KEY = "882a8490361da98702bf97a021ddc14d";
         public const string FACEBOOK_BLOKS_VERSION = "fcb188fb4c97a862b85d875824832dd3e42ead2a17102661b4bed0825f260514";
@@ -57,7 +57,7 @@ namespace FacebookApiSharp.API
 
 
 
-        public const string USER_AGENT_DEFAULT = "[FBAN/FB4A;FBAV/355.0.0.21.108;FBBV/352948159;FBDM/{density=2.75,width=1080,height=2111};FBLC/en_US;FBRV/0;FBCR/IR-MCI;FBMF/Xiaomi;FBBD/Redmi;FBPN/com.facebook.katana;FBDV/M2007J22G;FBSV/11;FBBK/1;FBOP/1;FBCA/arm64-v8a:;]";
+        public const string USER_AGENT_DEFAULT = "[FBAN/FB4A;FBAV/479.0.0.42.89;FBBV/636608107;FBDM/{density=2.75,width=1080,height=2111};FBLC/en_US;FBRV/0;FBCR/IR-MCI;FBMF/Xiaomi;FBBD/Redmi;FBPN/com.facebook.katana;FBDV/M2007J22G;FBSV/12;FBOP/1;FBCA/arm64-v8a:;]";
 
         public const string HOST = "Host";
         public const string HOST_URI = "graph.facebook.com";
